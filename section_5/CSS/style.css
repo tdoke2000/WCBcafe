@@ -164,3 +164,52 @@ aside {
     width: 60%;
     margin: 0 auto;
 }
+
+.post-title {
+    font-family: "YuMincho", 'Yu Mincho', serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.post-title,
+.post-cat {
+    margin-left: 120px;
+}
+
+article img {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+.sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu :hover {
+    color: #0bd;
+}
