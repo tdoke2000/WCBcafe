@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%
+}
+
+body {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* header logo */
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
+.header-navi {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.header-navi li {
+    margin-right: 36px;
+}
+
+.header-navi a {
+    color: #432;
+}
+
+.header-navi a:hover {
+    color: #0bd;
+}
+
+
+/* page title */
+.page-title {
+    text-align: center;
+    font-size: 100px;
+    font-family: philosopher, serif;
+}
+
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+/* main */
+
+article {
+    width: 74%;
+}
+
+aside {
+    width: 22%;
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.25rem;
+}
