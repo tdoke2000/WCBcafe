@@ -18,17 +18,9 @@ img {
     max-width: 100%;
 }
 
-.back {
-    background-size: cover;
-    background-position: center top;
-    background-image: url(../images/main-bg.jpg);
-    background-color: #432;
-    background-blend-mode: hard-light;
-    min-height: 100vh;
-}
 
 
-/* logo */
+/* header logo */
 .logo {
     width: 210px;
     margin-top: 14px;
@@ -60,30 +52,44 @@ header {
     color: #0bd;
 }
 
-/* main */
 
-main {
+/* page title */
+.page-title {
     text-align: center;
-    margin-top: 10%;
-}
-
-main h1 {
+    font-size: 100px;
     font-family: philosopher, serif;
 }
 
-main p {
-    font-size: 1.125rem;
-    margin: 10px 0 42px;
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
 }
 
-.bottun {
-    font-size: 1.375rem;
+/* main */
+
+article {
+    width: 74%;
+}
+
+aside {
+    width: 22%;
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
     color: #fff;
-    background: #0bd;
-    border-radius: 5px;
-    padding: 18px 32px;
-}
-
-.bottun:hover {
-    background: #0090aa;
+    font-size: 1.25rem;
 }
